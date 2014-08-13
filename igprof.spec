@@ -1,6 +1,6 @@
 ### RPM external igprof 5.9.10
 
-%define git_repo ktf
+%define git_repo igprof
 %define git_branch master
 %define git_commit d2392737fb612669458e2210564a87782f0dbbbd
 Source0: git://github.com/ktf/igprof.git?obj=%{git_branch}/%{git_commit}&export=igprof-%{git_commit}&output=/igprof-%{git_commit}.tgz
